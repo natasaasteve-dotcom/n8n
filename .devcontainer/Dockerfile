@@ -1,4 +1,4 @@
-FROM n8nio/base:22
+n8nio/base:22
 
 apk add --no-cache --update openssh sudo shadow bash
  echo node ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/node && chmod 0440 /etc/sudoers.d/node
